@@ -1,0 +1,281 @@
+ * {
+     margin: 0;
+     padding: 0;
+     font-family: sans-serif;
+ }
+
+ .nav1 img {
+     width: 60px;
+     box-sizing: border-box;
+     border-radius: 50%;
+     object-fit: cover;
+ }
+.nav2{
+    color: white;
+}
+.nav0{
+   background-color: rgba(0,0,0,0.5) !important;
+}
+.nav2 ul li a{
+   text-decoration: none;
+}
+ .nav2 ul li:hover {
+     color: black;
+     background-color: orange;
+     border-radius: 10px;
+ }
+ .w-100 {
+     width: 100%;
+     height: 300px;
+ }
+ .carousel-item img{
+   object-fit: cover;
+ }
+
+ .btn {
+     color: #fff;
+     background: red;
+     border: 2px solid white;
+     border-radius: 10px;
+ }
+
+ .btn:hover {
+     background: #fff;
+     color: #000;
+     border: 2px solid red;
+ }
+
+ .nav-link {
+     color: #fff;
+     padding: 8px;
+     margin: 5px 10px;
+     text-transform: uppercase;
+ }
+
+ .bg-img {
+     background: url(/image/img/about.jpg) no-repeat left;
+     background-size: 74%;
+     background-color: #fdfdfd;
+     overflow: hidden;
+     padding: 100px 0;
+     object-fit: cover;
+ }
+
+ .about-us {
+    width: 55%;
+    float: right;
+    background-color: #c5f4ec;
+    padding: 40px;
+    /* transform: scaleY(1);
+    transform-origin: bottom;
+    transition: transform 0.5s; */
+ }
+
+ .box{
+     max-width: 100%;
+
+   
+ }
+ .box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+ }
+
+ .gallery-1 h1 {
+     text-align: center;
+     padding: 20px;
+     color: yellow;
+ }
+span{
+    color: red;
+}
+ .gallery-1 {
+     background: linear-gradient(#0b5869, #0b5869 70%, #fff 50%, #fff 100%);
+     
+ }
+
+ .gallery .box {
+   height: 20rem;
+   border: 2px solid white;
+   box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+   border-radius: 10px;
+   position: relative;
+   overflow: hidden;
+   margin-bottom: 20px;
+}
+
+ .gallery .box .content {
+   position: absolute;
+   top: 0;
+   left: 0;
+   height: 100%;
+   width: 100%;
+   background: rgba(255, 255, 255, .9);
+   padding: 2rem;
+   padding-top: 2rem;
+   text-align: center;
+   transform: scaleY(0);
+   transform-origin: top;
+   transition: transform 0.5s;
+}
+
+.gallery .box:hover .content {
+   transform: scaleY(1);
+   transform-origin: bottom;
+   transition: transform 0.5s;
+   top: 0;
+}
+
+ .popular{
+    background: linear-gradient(rgba(255,255,255,0.6),rgba(255,255,255,0.6)), url(/image/img/parallex.jpg) ;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+ }
+
+ .popular h1{
+    text-align: center;
+    padding: 40px;
+ }
+ .popular .box{
+    background: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    padding: 10px;
+ }
+ .work h1{
+    text-align: center;
+    padding: 40px;
+ }
+ .work h3{
+   margin-top: 20px;
+   margin-bottom: 20px;
+   text-align: center;
+ }
+ .popular .box img{
+   object-fit: cover;
+   height: 300px;
+  
+ }
+ .work img{
+    box-shadow: 0.5rem 1rem rgb(0 0 0 / 10%);
+    border: 10px solid #fff;
+    border-radius: 50%;
+    object-fit: cover;
+    width: 70%;
+  
+ }
+ .popular .star{
+    color:orange;
+ }
+ .Review .box{
+    background: #000;
+    padding:30px 40px;
+    color: #fff;
+    border-radius:10px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 6rem;
+    
+ }
+ .Review .box img{
+    border-radius: 50%;
+    border: 10px solid white;
+    margin-top: -8rem;
+    margin-bottom: 20px;
+    height: 12rem;
+    width: 12rem;
+    object-fit: cover;
+ }
+ .Review h1{
+    color:rgb(225 210 147);
+    text-align: center;
+    padding: 50px 30px;
+ }
+ .rw{
+    background: linear-gradient(#0b5869, #0b5869 70%, #fff 50%, #fff 100%);
+ }
+ 
+ .order{
+    background: linear-gradient(rgba(255, 255, 255, .6), rgba(255, 255, 255, .2)),url(/image/img/orderbg.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+ }
+ .odr .box1{
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    height: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+ }
+ .order1{
+   margin-bottom: 20px;
+   padding: 20px;
+ }
+ .odr img{
+    width: 100%;
+    height:100%;
+    border-radius: 10%;
+    object-fit: cover;
+
+ }
+ .odr form{
+    text-align: center;
+ }
+ .order h1{
+    text-align: center;
+ }
+ .footer{
+    background: #000;
+ }
+ .ft{
+    color:#fff;
+ }
+ .ft .box a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+  
+ }
+ .ft .box a:hover{
+color: yellow;
+ }
+ .ft .box  i{
+    color: yellow;
+    margin-right: 15px;
+ }
+ .ft .contact  p i{
+   color: yellow;
+ }
+ .ft .box h3{
+   padding: 1rem 0;
+
+ }
+ .ft .credit{
+   font-size: 1rem;
+    text-align: center;
+    border-top: 0.2rem solid rgba(255,255,255,.7);
+    padding: 2rem 1rem;
+    font-weight: normal;
+    letter-spacing: .1rem;
+    color: #fff;
+ }
+.ft .credit a{
+   text-decoration: none;
+   color:yellow;
+   margin-right: 8px;
+}
+.number{
+   color: #fff;
+   background-color:rgb(209, 31, 79);
+   height: 100px;
+   padding: 20px;
+}
+.number h2 span{
+   color: #fff;
+}
+
